@@ -1,0 +1,40 @@
+I)
+	LOCAL:
+	- creezi repo
+		git init
+	- adaugi cod
+		Main.java
+
+		git add "Main.java" 
+		SAU
+		git add .
+
+	- comiti pe local
+		git commit
+
+	REMOTE:
+
+	- creezi un repozitory (e.g. pe github.com)
+
+	LOCAL: 
+	- legi repozitory-ul local de cel remote:
+		git remote add origin https://github.com/palawaa/NUME_REPO.git
+
+		EX: git remote add origin https://palawaa:furcopaci1@github.com/palawaa/exemple_java2.git
+	- verifici
+		git remote -v
+
+	- pushezi back upon it make me believe you want it
+		git push origin master
+
+
+
+
+VM commands:
+	i -> start writing
+	(esc) + :wq -> write and quit
+:wq
+
+https://github.com/user/repo.git
+
+https://github.com/palawaa/example_java.git
