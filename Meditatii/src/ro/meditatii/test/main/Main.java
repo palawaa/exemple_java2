@@ -23,6 +23,7 @@ public class Main {
 		List<Integer> intregi = new ArrayList<>();
 		List<? extends Number> num2 = new ArrayList<>();
 		num2 = intregi;
+		System.out.println();
 		
 	}
 
